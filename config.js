@@ -1,11 +1,11 @@
 module.exports = {
     bot: {
         tokens: [
-          "YOUR_BOT_TOKEN_HERE",              // Main bot token - Replace with your actual token
-        //  "YOUR_SECOND_BOT_TOKEN_HERE",      // 2 bot token - Uncomment and replace to use
-        //  "YOUR_THIRD_BOT_TOKEN_HERE",       // 3 bot token - Uncomment and replace to use
-        //  "YOUR_FOURTH_BOT_TOKEN_HERE",      // 4 bot token - Uncomment and replace to use
-        //  "YOUR_FIFTH_BOT_TOKEN_HERE",       // 5 bot token - Uncomment and replace to use
+          "1",              // Main bot token - Replace with your actual token
+          "2",      // 2 bot token - Uncomment and replace to use
+          "3",       // 3 bot token - Uncomment and replace to use
+          "4",      // 4 bot token - Uncomment and replace to use
+          "5",       // 5 bot token - Uncomment and replace to use
         ].filter(Boolean),
 
         defaultLanguage: 'ar', // ar | en لغة البوت
@@ -18,7 +18,7 @@ module.exports = {
     },
     server: {
         guildId: '1238919767939616830',         // ايدي السيرفر
-        broadcastRoleId: '', // ايدي الرول اللي يستخدم عليها البوت
+        broadcastRoleId: '1286425100257726555', // ايدي الرول اللي يستخدم عليها البوت
         reportChannelId: '1440609452091768832' // ايدي الروم اللي يرسل فيه البوت التقارير
     },
     broadcast: {
@@ -36,3 +36,4 @@ module.exports = {
     }
 
 };
+
